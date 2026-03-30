@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Actual-Field Discipline",
+  "slug": "ctgov-actual-field-discipline",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-actual-field-discipline",
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across actual-field discipline groups among eligible older CT.gov studies",
+  "summary": "A standalone E156 project on how missing actual dates and counts mark one of the quietest structural zones in older CT.gov studies.",
+  "body": "How much hiddenness is concentrated in closed CT.gov studies that still fail to use actual completion or enrollment fields? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and tracked three closed-study actual-field indicators. The project compares two-year no-results rates, ghost-protocol rates, and status-specific missing-actual patterns across primary-completion, completion, and enrollment discipline. Missing actual enrollment corresponds to a 100.0 percent no-results rate and a 62.8 percent ghost-protocol rate. Missing actual primary completion reaches 100.0 percent no results, missing actual completion 95.3 percent, and suspended studies are worst on actual-field discipline. Closed-study actual-field discipline therefore functions as a direct structural warning sign for opacity rather than a minor metadata defect. The separation remains visible across all three fields and links directly to the stopped-study audit as well inside older registry cohorts. Actual-field flags come from registry status and date/count types, not from external audits of what sponsors truly knew or when.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How much hiddenness is concentrated in closed CT.gov studies that still fail to use actual completion or enrollment fields?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and tracked three closed-study actual-field indicators."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, and status-specific missing-actual patterns across primary-completion, completion, and enrollment discipline."
+    },
+    {
+      "role": "Primary result",
+      "text": "Missing actual enrollment corresponds to a 100.0 percent no-results rate and a 62.8 percent ghost-protocol rate."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Missing actual primary completion reaches 100.0 percent no results, missing actual completion 95.3 percent, and suspended studies are worst on actual-field discipline."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Closed-study actual-field discipline therefore functions as a direct structural warning sign for opacity rather than a minor metadata defect. The separation remains visible across all three fields and links directly to the stopped-study audit as well inside older registry cohorts."
+    },
+    {
+      "role": "Boundary",
+      "text": "Actual-field flags come from registry status and date/count types, not from external audits of what sponsors truly knew or when."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Actual-Field Discipline dashboard",
+    "data": "249,507 eligible older closed interventional studies grouped by actual date/count discipline flags",
+    "code": "https://github.com/mahmood726-cyber/ctgov-actual-field-discipline",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369."
+  ]
+}
